@@ -46,7 +46,7 @@ class Schedule extends Component
     /**
      * Add a new callback event to the schedule.
      *
-     * @param  string  $callback
+     * @param  string|callable $callback
      * @param  array   $parameters
      * @return Event
      */
